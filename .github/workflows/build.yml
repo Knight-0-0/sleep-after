@@ -5,6 +5,9 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -40,3 +43,12 @@ jobs:
           name: sleepafter-debug
           path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: 最新构建
+          body: 由 GitHub Actions 自动构建，每次推送 main 都会更新这个 release 里的 apk。
+          files: app/build/outputs/apk/debug/app-debug.apk
+          make_latest: true
