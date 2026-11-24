@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "SleepAfter"
 include ':app'
-project(':app').projectDir = file('SleepAfter-source/SleepAfter/app')
