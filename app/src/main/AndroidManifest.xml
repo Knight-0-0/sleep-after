@@ -37,6 +37,11 @@
             android:launchMode="singleTop" />
 
         <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+
+        <activity
             android:name=".RingActivity"
             android:excludeFromRecents="true"
             android:exported="false"

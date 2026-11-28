@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_bg_dialog.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/bg_dialog.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/layout_activity_watch.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/layout/activity_watch.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_bg_ghost.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/bg_ghost.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/layout_activity_history.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_bg_row.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/bg_row.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/anim_slide_up_in.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/anim/slide_up_in.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/anim_hold_out.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/anim/hold_out.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_ic_moon.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/ic_moon.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_bg_card.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_progress_sleep.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/progress_sleep.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_ic_launcher.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_moon_glow.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/moon_glow.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_bg_primary.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/bg_primary.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/anim_hold_in.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/anim/hold_in.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_ic_alarm.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/ic_alarm.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_bg_dot.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/bg_dot.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/anim_ring_out.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/anim/ring_out.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/drawable_bg_night.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/drawable/bg_night.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/anim_slide_down_out.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/anim/slide_down_out.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/layout_dialog_duration.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/layout/dialog_duration.xml"
+    },
+    {
+        "merged": "com.dafeiyu.sleepafter.app-debug-4:/layout_activity_ring.xml.flat",
+        "source": "com.dafeiyu.sleepafter.app-main-6:/layout/activity_ring.xml"
+    }
+]

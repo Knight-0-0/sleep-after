@@ -33,7 +33,8 @@ class MainActivity : Activity() {
     private lateinit var minsView: TextView
     private lateinit var statusTitle: TextView
     private lateinit var statusDetail: TextView
-    private lateinit var latencyView: TextView
+    private lateinit var latencyValue: TextView
+    private lateinit var latencyCount: TextView
     private lateinit var strictValue: TextView
     private lateinit var exactValue: TextView
     private lateinit var battValue: TextView
@@ -55,7 +56,8 @@ class MainActivity : Activity() {
         minsView = findViewById(R.id.targetMins)
         statusTitle = findViewById(R.id.statusTitle)
         statusDetail = findViewById(R.id.statusDetail)
-        latencyView = findViewById(R.id.latency)
+        latencyValue = findViewById(R.id.latencyValue)
+        latencyCount = findViewById(R.id.latencyCount)
         strictValue = findViewById(R.id.strictValue)
         exactValue = findViewById(R.id.exactValue)
         battValue = findViewById(R.id.battValue)
@@ -68,6 +70,10 @@ class MainActivity : Activity() {
             AlarmScheduler.requestExactPermission(this)
         }
         findViewById<View>(R.id.battPerm).setOnClickListener { requestBattery() }
+        findViewById<View>(R.id.latencyBox).setOnClickListener {
+            startActivity(Intent(this, HistoryActivity::class.java))
+            overridePendingTransition(R.anim.slide_up_in, R.anim.hold_out)
+        }
 
         armBtn.setOnClickListener { arm() }
         cancelBtn.setOnClickListener { disarm() }
@@ -128,7 +134,7 @@ class MainActivity : Activity() {
         view.findViewById<TextView>(R.id.pickCancel).setOnClickListener { dlg.dismiss() }
         view.findViewById<TextView>(R.id.pickOk).setOnClickListener {
             var v = hp.value * 60 + mp.value * 5
-            if (v < 30) v = 30
+            if (v < 5) v = 5
             Store.setTargetMinutes(this, v)
             dlg.dismiss()
             refresh()
@@ -228,8 +234,9 @@ class MainActivity : Activity() {
         }
 
         val lat = Store.lastLatencyMin(this)
-        latencyView.text =
-            if (lat >= 0) "上次入睡潜伏期 $lat 分钟" else "还没有记录，先跑一晚"
+        val records = Store.history(this)
+        latencyValue.text = if (lat >= 0) "$lat 分钟" else "还没有记录"
+        latencyCount.text = if (records.isEmpty()) "入睡记录" else "${records.size} 天记录"
 
         armBtn.isEnabled = !watching
         armBtn.alpha = if (watching) 0.45f else 1f

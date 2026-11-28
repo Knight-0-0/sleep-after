@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dafeiyu.sleepafter.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/runner/work/sleep-after/sleep-after/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "685"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "560",
+                        "endLines": "23",
+                        "endColumns": "12",
+                        "endOffsets": "1190"
+                    }
+                },
+                {
+                    "source": "/home/runner/work/sleep-after/sleep-after/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "12,13,2,4,3,6,7,15,10,14,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "348,389,55,133,92,178,219,479,307,435,268",
+                        "endColumns": "40,45,36,43,40,40,47,40,39,43,38",
+                        "endOffsets": "384,430,87,172,128,214,262,515,342,474,302"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,142,179,223,264,305,353,394,434,478",
+                        "endColumns": "40,45,36,43,40,40,47,40,39,43,38",
+                        "endOffsets": "91,137,174,218,259,300,348,389,429,473,512"
+                    }
+                },
+                {
+                    "source": "/home/runner/work/sleep-after/sleep-after/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "517",
+                        "endColumns": "42",
+                        "endOffsets": "555"
+                    }
+                }
+            ]
+        }
+    ]
+}

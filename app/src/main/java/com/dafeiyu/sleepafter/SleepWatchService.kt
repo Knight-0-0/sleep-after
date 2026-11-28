@@ -213,9 +213,11 @@ class SleepWatchService : Service(), SensorEventListener {
         Store.setTriggerAt(this, trigger)
 
         val armed = Store.armedAt(this)
+        val latency = if (armed > 0) ((now - armed) / 60_000L).toInt() else 0
         if (armed > 0) {
-            Store.setLastLatencyMin(this, ((now - armed) / 60_000L).toInt())
+            Store.setLastLatencyMin(this, latency)
         }
+        Store.addRecord(this, now, latency, Store.targetMinutes(this))
 
         AlarmScheduler.schedule(this, trigger)
         notifyOnset(trigger)
